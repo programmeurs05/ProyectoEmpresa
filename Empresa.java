@@ -26,5 +26,31 @@ public class Enterprise {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
-  
+      public long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDocument() {
+        return document;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public date getCreatedAt() {
+        return createdAt;
+    }
+
+    public date getUpdateAt() {
+        return updateAt;
+    }
 }
