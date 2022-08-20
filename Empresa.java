@@ -12,7 +12,19 @@ public class Empresa {
     private date updateAt;
     
 
+    public Empresa(long id, String name, String document, String phone, String address, date createdAt, date updateAt) {
+        this.id = id;
+        this.name = name;
+        this.document = document;
+        this.phone = phone;
+        this.address = address;
+        this.createdAt = createdAt;
+        this.updateAt = updateAt;
+    }
+
+
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
+  
 }
