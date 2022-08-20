@@ -10,7 +10,6 @@ public class Enterprise {
     private String address;
     private date createdAt;
     private date updateAt;
-    
 
     public Enterprise(long id, String name, String document, String phone, String address, date createdAt, date updateAt) {
         this.id = id;
@@ -21,7 +20,6 @@ public class Enterprise {
         this.createdAt = createdAt;
         this.updateAt = updateAt;
     }
-
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -53,4 +51,33 @@ public class Enterprise {
     public date getUpdateAt() {
         return updateAt;
     }
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setDocument(String document) {
+		this.document = document;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public void setCreatedAt(date createdAt) {
+		this.createdAt = createdAt;
+	}
+
+	public void setUpdateAt(date updateAt) {
+		this.updateAt = updateAt;
+	}
+
 }
