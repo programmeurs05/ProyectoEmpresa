@@ -1,7 +1,7 @@
 package programmeurs.empresa;
 
-
-public class Empresa {
+//piloto clase Enterprise
+public class Enterprise {
 
     private long id;
     private String name;
@@ -12,7 +12,7 @@ public class Empresa {
     private date updateAt;
     
 
-    public Empresa(long id, String name, String document, String phone, String address, date createdAt, date updateAt) {
+    public Enterprise(long id, String name, String document, String phone, String address, date createdAt, date updateAt) {
         this.id = id;
         this.name = name;
         this.document = document;
