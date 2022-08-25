@@ -1,6 +1,8 @@
-package programmeurs.empresa;
+package com.ejemplo.Proyecto;
 
-//piloto clase Enterprise
+
+import java.time.LocalDate;
+
 public class Enterprise {
 
     private long id;
@@ -8,23 +10,20 @@ public class Enterprise {
     private String document;
     private String phone;
     private String address;
-    private date createdAt;
-    private date updateAt;
+    private LocalDate createdAt;
+    private LocalDate updateAt;
 
-    public Enterprise(long id, String name, String document, String phone, String address, date createdAt, date updateAt) {
+
+    
+    public Enterprise(long id, String name, String document, String phone, String address) {
         this.id = id;
         this.name = name;
         this.document = document;
         this.phone = phone;
         this.address = address;
-        this.createdAt = createdAt;
-        this.updateAt = updateAt;
     }
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-      public long getId() {
+    public long getId() {
         return id;
     }
 
@@ -44,15 +43,7 @@ public class Enterprise {
         return address;
     }
 
-    public date getCreatedAt() {
-        return createdAt;
-    }
-
-    public date getUpdateAt() {
-        return updateAt;
-    }
-
-	public void setId(long id) {
+    public void setId(long id) {
 		this.id = id;
 	}
 
@@ -72,11 +63,11 @@ public class Enterprise {
 		this.address = address;
 	}
 
-	public void setCreatedAt(date createdAt) {
+	public void setCreatedAt(LocalDate createdAt) {
 		this.createdAt = createdAt;
 	}
 
-	public void setUpdateAt(date updateAt) {
+	public void setUpdateAt(LocalDate updateAt) {
 		this.updateAt = updateAt;
 	}
 
