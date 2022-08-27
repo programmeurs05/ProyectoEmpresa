@@ -25,4 +25,11 @@ public class Enmu_RoleName {
         this.Operario = Operario;
     }
 
+    @Override
+    public String toString() {
+        return "Enmu_RoleName{" +
+                "Admin='" + Admin + '\'' +
+                ", Operario='" + Operario + '\'' +
+                '}';
+    }
 }

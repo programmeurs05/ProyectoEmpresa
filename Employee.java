@@ -11,7 +11,7 @@ public class Employee {
     private LocalDate createdAt;
     private LocalDate updateAt;
 
-    public Employee(long id, Profile profile, String email, Enmu_RoleName enmu_RoleName, Enterprise enterprise, LocalDate createdAt, LocalDate updateAt) {
+    public Employee(long id, String email,Profile profile, Enmu_RoleName enmu_RoleName, Enterprise enterprise, LocalDate createdAt, LocalDate updateAt) {
         this.id = id;
         this.profile = profile;
         this.email = email;

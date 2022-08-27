@@ -71,4 +71,8 @@ public class Enterprise {
 		this.updateAt = updateAt;
 	}
 
+    @Override
+    public String toString() {
+        return id + " " + name + " " + document + " " + phone + " " + address + " " + createdAt + " " + updateAt;
+    }
 }
