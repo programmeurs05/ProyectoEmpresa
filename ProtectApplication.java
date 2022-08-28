@@ -46,5 +46,8 @@ public class ProtectApplication {
 		System.out.println("La empresa es:" + transaction1.getEnterprise());
 		System.out.println(transaction1.getCreatedAt());
 		System.out.println(transaction1.getUpdateAt());
+		
+		colanta.setAddress("cll 23 # 52 30");
+		System.out.println("La nueva direccion es:" + colanta.getAddress());			
 		}
 }
